@@ -1,7 +1,7 @@
 body {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 header {
@@ -49,10 +49,49 @@ footer{
     box-shadow: black 1px -1px 4px -1px;
     font-weight: bold;
     font-size: 20px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 7vh;
+    background-color: #9cc5c5;
+}
+
+#home-content{
+    width: 90vw;
+    margin: 0 auto;
+    overflow: auto;
+}
+#home-content section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+#home-content .card-livros{
+    width: 200px;
+    box-shadow: #443f3f 0px 0px 4px 1px;
+    text-align: center;
+    padding: 1% 0;
+    margin: 1% 0.2%;
+}
+#home-content .card-img{
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#home-content button{
+    border: none;
+    background-color: #9cc5c5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+main{
+    padding-bottom: 7vh;
 }
