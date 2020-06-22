@@ -6,11 +6,11 @@
 
 #loginBox {
     align-items: center;
-    margin: 0 35%;
+    margin: 5% 35%;
 }
 
 #loginHeader {
-    color: #1355ff
+    color: black;
 }
 
 #loginForm {
@@ -26,8 +26,8 @@
 }
 
 .button {
-    background-color: #1355ff;
-    color: white;
+    background-color: #9cc5c5;
+    color: black;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
