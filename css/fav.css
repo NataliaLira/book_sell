@@ -13,6 +13,9 @@ margin: 0 auto;
 .description{
     width: 50%;
 }
+thead{
+    background-color: #9cc5c5;
+}
 tbody{
     text-align: center;
 }
