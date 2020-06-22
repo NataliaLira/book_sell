@@ -50,8 +50,7 @@ header ul li a:hover {
 footer {
     height: 7vh;
     box-shadow: black 1px -1px 4px -1px;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     position: fixed;
     bottom: 0;
     width: 100%;
