@@ -1,0 +1,36 @@
+.flexBox {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+#loginBox {
+    align-items: center;
+    margin: 0 35%;
+}
+
+#loginHeader {
+    color: #1355ff
+}
+
+#loginForm {
+    width: 90%;
+}
+
+.textBox {
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #1355ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
