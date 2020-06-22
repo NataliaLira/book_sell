@@ -8,6 +8,10 @@
     align-items: center;
     margin: 5% 35%;
 }
+#registerBox {
+    margin: 2% 35%; 
+    align-items: center;
+}
 
 #loginHeader {
     color: black;
