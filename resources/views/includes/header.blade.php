@@ -12,12 +12,12 @@
 
 <body>
     <header>
-        <img src="img/book_logo.svg" alt="">
+        <a href="/"><img src="img/book_logo.svg" alt=""></a>
         <nav>
             <ul>
-                <li><a href="favoritos.html">Favoritos</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="/favoritos">Favoritos</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/cadastro">Cadastro</a></li>
             </ul>
         </nav>
     </header>

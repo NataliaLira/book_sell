@@ -13,8 +13,14 @@ header {
     box-shadow: black 1px 1px 4px;
 }
 
-header img {
+header>a{
     width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+header>a img {
+    width: 100%;
 }
 
 header nav {
