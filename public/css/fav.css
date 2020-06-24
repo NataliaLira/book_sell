@@ -1,0 +1,21 @@
+#fav-content table{
+   width: 100%;
+}
+#fav-content .card-img{
+    width: 50px;
+    height: 100px;
+    background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+margin: 0 auto;
+}
+
+.description{
+    width: 50%;
+}
+thead{
+    background-color: #9cc5c5;
+}
+tbody{
+    text-align: center;
+}

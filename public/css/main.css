@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: #9cc5c5;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: black 1px 1px 4px;
+}
+
+header img {
+    width: 100px;
+}
+
+header nav {
+    width: 40%;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    height: 15vh;
+}
+
+header ul li {
+    list-style-type: none;
+    font-size: 20px;
+    height: 20px;
+    align-self: center;
+    font-weight: bold;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover {
+    color: #443f3f;
+}
+
+footer {
+    height: 7vh;
+    box-shadow: black 1px -1px 4px -1px;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vh;
+    background-color: #9cc5c5;
+}
+
+main {
+    width: 90vw;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#home-content section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+#home-content .card-livros {
+    width: 200px;
+    box-shadow: #443f3f 0px 0px 4px 1px;
+    text-align: center;
+    padding: 1% 0;
+}
+
+#home-content .card-img {
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#home-content button {
+    border: none;
+    background-color: #9cc5c5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+main {
+    padding-bottom: 7vh;
+}
