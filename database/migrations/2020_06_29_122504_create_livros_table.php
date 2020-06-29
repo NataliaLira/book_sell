@@ -17,8 +17,7 @@ class CreateLivrosTable extends Migration
             $table->id();
             $table->string('titulo');
             $table->text('descricao');
-            $table->unsignedBigInteger('editora_id');
-            $table->foreign('editora_id')->references('id')->on('editoras');
+            $table->foreignId('editoras_id')->references('id')->on('editoras');
             $table->timestamps();
         });
     }

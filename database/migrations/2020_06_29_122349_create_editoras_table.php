@@ -16,7 +16,6 @@ class CreateEditorasTable extends Migration
         Schema::create('editoras', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
-            $table->timestamps();
         });
     }
 
@@ -27,6 +26,6 @@ class CreateEditorasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('test');
+        Schema::dropIfExists('editoras');
     }
 }

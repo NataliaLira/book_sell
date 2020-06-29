@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class editoras extends Seeder
+class Editoras extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,10 +12,19 @@ class editoras extends Seeder
     public function run()
     {
         DB::table('editoras')->insert([
-            'nome' => "poliana",
+            'nome'=>'Saraiva'
         ]);
         DB::table('editoras')->insert([
-            'nome' => "beatrizphp",
+            'nome'=>'Rocco'
+        ]);
+        DB::table('editoras')->insert([
+            'nome'=>'Cia das Letras'
+        ]);
+        DB::table('editoras')->insert([
+            'nome'=>'Abril'
+        ]);
+        DB::table('editoras')->insert([
+            'nome'=>'Sextante'
         ]);
     }
 }

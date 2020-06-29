@@ -11,6 +11,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(editoras::class);
+        $this->call(Editoras::class);
     }
 }

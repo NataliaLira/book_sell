@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class InstitucionalController extends Controller
 {
-    function homeView() {
+    function homeView(){
         return view('index');
     }
     function favoritoView(){
