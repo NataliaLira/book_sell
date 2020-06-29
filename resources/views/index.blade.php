@@ -1,26 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('templates.institucional')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://use.fontawesome.com/271587175f.js"></script>
-</head>
+@section('titulo')
+Home
+@endsection
 
-<body>
-    <header>
-        <img src="img/book_logo.svg" alt="">
-        <nav>
-            <ul>
-                <li><a href="/favorito">Favoritos</a></li>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/cadastro">Cadastro</a></li>
-            </ul>
-        </nav>
-    </header>
+@section('conteudo')
     <main id="home-content">
         <div>
             <h3>Todos Os Livros</h3>
@@ -88,9 +72,4 @@
             </div>
         </section>
     </main>
-    <footer>
-        <p>copyright© - 2020 FavLivros. All rights reserved</p>
-    </footer>
-</body>
-
-</html>
+@endsection
