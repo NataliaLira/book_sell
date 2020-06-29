@@ -22,9 +22,14 @@
             </form>
             <a href="">Forgotten Password?</a>
         </div>
+<<<<<<< HEAD
     </main>
    @include('includes.footer')
 
 </body>
 
 </html>
+=======
+    </main>    
+@include('includes.footer')
+>>>>>>> 22ce5b57db6c2d5c4c17b10672f46cbab1c75219

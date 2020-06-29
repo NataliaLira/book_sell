@@ -72,4 +72,8 @@ Home
             </div>
         </section>
     </main>
+<<<<<<< HEAD
 @endsection
+=======
+@include('includes.footer')
+>>>>>>> 22ce5b57db6c2d5c4c17b10672f46cbab1c75219
