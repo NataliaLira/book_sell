@@ -1,27 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/form.css">
-    <script src="https://use.fontawesome.com/271587175f.js"></script>
-
-</head>
+@include('includes.head')
 
 <body>
-    <header>
-        <img src="img/book_logo.svg" alt="">
-        <nav>
-            <ul>
-                <li><a href="/favorito">Favoritos</a></li>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/cadastro">Cadastro</a></li>
-            </ul>
-        </nav>
-    </header>
+    @include('includes.header')
+
     <main>
         <div id="loginBox" class="flexBox">
             <h2 id="loginHeader">LOGIN</h2>
@@ -39,9 +23,8 @@
             <a href="">Forgotten Password?</a>
         </div>
     </main>
-    <footer>
-        <p>copyright© - 2020 FavLivros. All rights reserved</p>
-    </footer>
+   @include('includes.footer')
+
 </body>
 
 </html>

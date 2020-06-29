@@ -13,23 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'InstitucionalController@homeView');
 
-Route::get('/favorito', function (){
-    return view('favorito');
-});
+Route::get('/favorito', 'InstitucionalController@favoritoView');
 
-Route::get('/login', function (){
-    return view('login');
-});
+Route::get('/login', 'InstitucionalController@loginView');
 
-Route::get('/cadastro', function (){
-    return view('cadastro');
-});
+Route::get('/cadastro', 'InstitucionalController@cadastroView');
 
-Route::get('/produto', function (){
-    return view('produto');
-});
+Route::get('/produto', 'InstitucionalController@produtoView');
 
