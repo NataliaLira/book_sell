@@ -25,12 +25,8 @@
             </form>
         </div>
     </main>
-<<<<<<< HEAD
     @include('includes.footer')
 
 </body>
 
 </html>
-=======
-@include('includes.footer')
->>>>>>> 22ce5b57db6c2d5c4c17b10672f46cbab1c75219
