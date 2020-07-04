@@ -2,10 +2,18 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 header {
@@ -66,48 +74,77 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: auto;
     background-color: #182b62;
     color: #FFF;
 }
 
 main {
-    width: 90vw;
-    margin: 0 auto;
-    overflow: auto;
+    width: 960px;
+    margin: 0 auto 50px auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #386894;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.btn i{
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: #182b62;
+    color: #FFF;
 }
 
 #home-content section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    
 }
 
-#home-content .card-livros {
-    width: 200px;
-    box-shadow: #443f3f 0px 0px 4px 1px;
+#home-content article {
     text-align: center;
-    padding: 1% 0;
+    background-color: #FFF;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-#home-content .card-img {
-    width: 150px;
-    height: 200px;
-    margin: 0 auto;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+#home-content article form {
+    opacity: 0.8;
+    margin-top: auto;
 }
 
-#home-content button {
-    border: none;
-    background-color: #9cc5c5;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: black;
+#home-content article:hover form{
+    opacity: 1;
 }
 
-main {
-    padding-bottom: 7vh;
+#home-content article img{
+    width: 100%;
+    filter: grayscale(30%);
+    transition: all 0.3s ease;
+}
+
+#home-content article:hover img{
+    filter: grayscale(0%);
+}
+
+#home-content article form{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
 }
