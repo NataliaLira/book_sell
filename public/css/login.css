@@ -1,0 +1,40 @@
+main {
+    width: 480px;
+}
+
+form {
+    background-color: #386894;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    margin-bottom: 20px;
+    display: block;
+    color: #FFF;
+    font-weight: bold;
+}
+
+ form label input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    margin-top:5px ;
+ }
+
+ form button{
+     align-self: flex-end;
+     border: none;
+     padding: 10px;
+     width: 50%;
+     font-size: 18px;
+     background-color: rgba(255,255,255,0.8);
+     cursor: pointer;
+ }
+
+ form button:hover{
+    background-color: rgba(255,255,255,1);
+ }

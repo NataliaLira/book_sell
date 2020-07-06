@@ -4,6 +4,7 @@ Favoritos
 @endsection
 
 @section('conteudo')
+    <link rel="stylesheet" href="/css/favoritos.css">
     <main id="fav-content">
         <div>
             <h3>Meus Favoritos</h3>
@@ -12,7 +13,7 @@ Favoritos
             <table>
                 <thead>
                     <tr>
-                        <th>Imagem</th>
+                        <th></th>
                         <th>Livro</th>
                         <th>Editora</th>
                         <th>Preço</th>
@@ -23,69 +24,69 @@ Favoritos
                 <tbody>
                     <tr>
                         <td>
-                            <div class="card-img" style="background-image: url('img/quemmexeu.png');"></div>
+                            <img src="img/quemmexeu.png" alt="Quem Mexeu no Meu Queijo" />
                         </td>
                         <td>Quem mexeu no meu queijo?</td>
                         <td>Saraiva</td>
-                        <td>RS15</td>
-                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, esse eveniet? Iste assumenda ipsa tempora? Omnis voluptatum, expedita veniam possimus fuga quibusdam repellendus quisquam nihil! Modi inventore beatae optio maiores?</td>
+                        <td>R$ 150,00</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
                         <td>
-                            <button><i class="fa fa-trash" aria-hidden="true"></i></button>
+                            <button class="btn"><i class="material-icons" aria-hidden="true">delete</i>Remover</button>
                         </td>
                     </tr><tr>
                         <td>
-                            <div class="card-img" style="background-image: url('img/quemmexeu.png');"></div>
+                            <img src="img/quemmexeu.png" alt="Quem Mexeu no Meu Queijo" />
                         </td>
                         <td>Quem mexeu no meu queijo?</td>
                         <td>Saraiva</td>
-                        <td>RS15</td>
-                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, esse eveniet? Iste assumenda ipsa tempora? Omnis voluptatum, expedita veniam possimus fuga quibusdam repellendus quisquam nihil! Modi inventore beatae optio maiores?</td>
+                        <td>R$ 150,00</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
                         <td>
-                            <button><i class="fa fa-trash" aria-hidden="true"></i></button>
+                            <button class="btn"><i class="material-icons" aria-hidden="true">delete</i>Remover</button>
                         </td>
                     </tr><tr>
                         <td>
-                            <div class="card-img" style="background-image: url('img/quemmexeu.png');"></div>
+                            <img src="img/quemmexeu.png" alt="Quem Mexeu no Meu Queijo" />
                         </td>
                         <td>Quem mexeu no meu queijo?</td>
                         <td>Saraiva</td>
-                        <td>RS15</td>
-                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, esse eveniet? Iste assumenda ipsa tempora? Omnis voluptatum, expedita veniam possimus fuga quibusdam repellendus quisquam nihil! Modi inventore beatae optio maiores?</td>
+                        <td>R$ 150,00</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
                         <td>
-                            <button><i class="fa fa-trash" aria-hidden="true"></i></button>
+                            <button class="btn"><i class="material-icons" aria-hidden="true">delete</i>Remover</button>
                         </td>
                     </tr><tr>
                         <td>
-                            <div class="card-img" style="background-image: url('img/quemmexeu.png');"></div>
+                            <img src="img/quemmexeu.png" alt="Quem Mexeu no Meu Queijo" />
                         </td>
                         <td>Quem mexeu no meu queijo?</td>
                         <td>Saraiva</td>
-                        <td>RS15</td>
-                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, esse eveniet? Iste assumenda ipsa tempora? Omnis voluptatum, expedita veniam possimus fuga quibusdam repellendus quisquam nihil! Modi inventore beatae optio maiores?</td>
+                        <td>R$ 150,00</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
                         <td>
-                            <button><i class="fa fa-trash" aria-hidden="true"></i></button>
+                            <button class="btn"><i class="material-icons" aria-hidden="true">delete</i>Remover</button>
                         </td>
                     </tr><tr>
                         <td>
-                            <div class="card-img" style="background-image: url('img/quemmexeu.png');"></div>
+                            <img src="img/quemmexeu.png" alt="Quem Mexeu no Meu Queijo" />
                         </td>
                         <td>Quem mexeu no meu queijo?</td>
                         <td>Saraiva</td>
-                        <td>RS15</td>
-                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, esse eveniet? Iste assumenda ipsa tempora? Omnis voluptatum, expedita veniam possimus fuga quibusdam repellendus quisquam nihil! Modi inventore beatae optio maiores?</td>
+                        <td>R$ 150,00</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
                         <td>
-                            <button><i class="fa fa-trash" aria-hidden="true"></i></button>
+                            <button class="btn"><i class="material-icons" aria-hidden="true">delete</i>Remover</button>
                         </td>
                     </tr><tr>
                         <td>
-                            <div class="card-img" style="background-image: url('img/quemmexeu.png');"></div>
+                            <img src="img/quemmexeu.png" alt="Quem Mexeu no Meu Queijo" />
                         </td>
                         <td>Quem mexeu no meu queijo?</td>
                         <td>Saraiva</td>
-                        <td>RS15</td>
-                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, esse eveniet? Iste assumenda ipsa tempora? Omnis voluptatum, expedita veniam possimus fuga quibusdam repellendus quisquam nihil! Modi inventore beatae optio maiores?</td>
+                        <td>R$ 150,00</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
                         <td>
-                            <button><i class="fa fa-trash" aria-hidden="true"></i></button>
+                            <button class="btn"><i class="material-icons" aria-hidden="true">delete</i>Remover</button>
                         </td>
                     </tr>
                 </tbody>

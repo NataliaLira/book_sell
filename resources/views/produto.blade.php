@@ -1,32 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://use.fontawesome.com/271587175f.js"></script>
-
-</head>
-
-<body>
-    <header>
-        <img src="img/book_logo.svg" alt="">
-        <nav>
-            <ul>
-                <li><a href="/favorito">Favoritos</a></li>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/cadastro">Cadastro</a></li>
-            </ul>
-        </nav>
-    </header>
+@extends('templates.institucional')
+@section('titulo','Produto')
+@section('conteudo')
+    <link rel="stylesheet" href="/css/produto.css">
     <main>
+        <h2>Quem Mexeu No Meu Queijo</h2>
+        <img src="img/quemmexeu.png">
+        <div>
+            <h3>Descrição</h3>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+            
+            <h3>Autor</h3>
+            Spencer Jonhson
 
+            <h3>Editora</h3>
+            Nome de Editora
+        </div>
+        
     </main>
-    <footer>
-        <p>copyright© - 2020 FavLivros. All rights reserved</p>
-    </footer>
-</body>
-
-</html>
+@endsection

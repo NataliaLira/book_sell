@@ -3,6 +3,7 @@
 @section('titulo','Home')
 
 @section('conteudo')
+    <link rel="stylesheet" href="/css/index.css">
     <main id="home-content">
         
         <h3>Todos os livros</h3>

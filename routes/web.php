@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'InstitucionalController@homeView');
 
-Route::get('/favorito', 'InstitucionalController@favoritoView');
+Route::get('/favoritos', 'InstitucionalController@favoritoView');
 
 Route::get('/login', 'InstitucionalController@loginView');
 

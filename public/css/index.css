@@ -1,0 +1,38 @@
+#home-content section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+#home-content article {
+    text-align: center;
+    background-color: #FFF;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#home-content article form {
+    opacity: 0.8;
+    margin-top: auto;
+}
+
+#home-content article:hover form{
+    opacity: 1;
+}
+
+#home-content article img{
+    width: 100%;
+    filter: grayscale(30%);
+    transition: all 0.3s ease;
+}
+
+#home-content article:hover img{
+    filter: grayscale(0%);
+}
+
+#home-content article form{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}

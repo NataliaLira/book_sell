@@ -1,32 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-
-@include('includes.head')
-
-<body>
-    @include('includes.header')
+@extends('templates.institucional')
+@section('titulo','Cadastre-se')
+@section('conteudo')
+    <link rel="stylesheet" href="/css/login.css">
     <main>
-        <div id="registerBox" class="flexBox">
-            <h2 id="loginHeader">CADASTRAR</h2>
-            <form action="" method="get" target="" id="loginForm" class="flexBox">
-                <label for="username">Username:</label>
-                <br>
-                <input type="text" id="username" class="textBox">
-                <br>
-                <label for="username">E-mail:</label>
-                <br>
-                <input type="email" name="" id=""  class="textBox">
-                <br>
-                <label for="password">Senha:</label>
-                <br>
-                <input type="password" id="password" class="textBox">
-                <br>
-                <input type="submit" value="CADASTRAR" class="button">
-            </form>
-        </div>
+        <h2>CADASTRAR</h2>
+        <form action="" method="get" target="" id="loginForm" class="flexBox">
+            <label for="username">
+                Username
+                <input type="text" id="username" name="username">
+            </label>
+            <label for="email">
+                Username
+                <input type="email" id="email" name="email">
+            </label>
+            <label for="password">
+                Senha
+                <input type="password" id="password" name="password">
+            </label>
+            <label for="password">
+                Confirmação de Senha
+                <input type="password" id="conf" name="conf">
+            </label>
+            <button type="submit">Cadastrar</button>
+        </form>
+            
     </main>
-    @include('includes.footer')
-
-</body>
-
-</html>
+@endsection

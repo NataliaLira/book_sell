@@ -1,0 +1,40 @@
+#fav-content table{
+   width: 100%;
+   border-collapse: collapse;
+   border: 1px solid #386894;
+}
+
+#fav-content table td,
+#fav-content table th{
+    padding: 10px;
+}
+
+
+#fav-content table td:nth-child(4) {
+    width: 100px;
+}
+
+#fav-content img{
+    width: 50px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: block;
+}
+
+.description{
+    width: 50%;
+}
+thead{
+    background-color: #386894;
+    color: #FFF;
+}
+tbody{
+    text-align: center;
+}
+
+tbody td {
+    border: 1px solid #386894;
+    padding: 10px;
+}
