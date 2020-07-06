@@ -11,13 +11,17 @@ class User extends Authenticatable
     // protected $table = "users";
     use Notifiable;
 
+    // Informar ao Laravel que esse model refere-se
+    // a uma tabela sem timestamps
+    public $timestamps = false;
+
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'nome', 'email', 'senha',
     ];
 
     /**
@@ -26,7 +30,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token',
+        'senha'
     ];
 
     /**

@@ -4,11 +4,11 @@
     <link rel="stylesheet" href="/css/login.css">
     <main>
         <h2>CADASTRAR</h2>
-        <form action="/usuario" method="post">
+        <form action="/usuarios" method="post">
             @csrf
             <label for="name">
                 Nome
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="nome" required>
             </label>
             <label for="email">
                 Email
@@ -16,7 +16,7 @@
             </label>
             <label for="password">
                 Senha
-                <input type="password" id="password" name="password">
+                <input type="password" id="password" name="senha">
             </label>
             <label for="password">
                 Confirmação de Senha

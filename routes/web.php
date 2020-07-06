@@ -23,3 +23,5 @@ Route::get('/cadastro', 'InstitucionalController@cadastroView');
 
 Route::get('/produto', 'InstitucionalController@produtoView');
 
+Route::post('/usuarios', 'UsuariosController@store');
+
