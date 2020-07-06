@@ -4,13 +4,14 @@
     <link rel="stylesheet" href="/css/login.css">
     <main>
         <h2>CADASTRAR</h2>
-        <form action="" method="get" target="" id="loginForm" class="flexBox">
-            <label for="username">
-                Username
-                <input type="text" id="username" name="username">
+        <form action="/usuario" method="post">
+            @csrf
+            <label for="name">
+                Nome
+                <input type="text" id="name" name="name">
             </label>
             <label for="email">
-                Username
+                Email
                 <input type="email" id="email" name="email">
             </label>
             <label for="password">
