@@ -14,6 +14,7 @@ class User extends Authenticatable
     // Informar ao Laravel que esse model refere-se
     // a uma tabela sem timestamps
     public $timestamps = false;
+    public $table = 'usuarios';
 
     /**
      * The attributes that are mass assignable.

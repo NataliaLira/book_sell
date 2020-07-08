@@ -17,7 +17,7 @@ class UsuariosController extends Controller
         $user->senha = Hash::make($request->senha);
 
         $user->save();
-
+        Auth::attempt(['email' => $user->email,'password' => $user->senha]);
         return redirect('/favoritos');
     }
 
@@ -30,6 +30,11 @@ class UsuariosController extends Controller
         } else {
             return redirect('/login?erro=1');
         }
+    }
+
+    function logout(Request $request){
+        Auth::logout();
+        return redirect('/');
     }
 
 }

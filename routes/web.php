@@ -27,3 +27,5 @@ Route::post('/usuarios', 'UsuariosController@store');
 
 Route::post('/login', 'UsuariosController@login');
 
+Route::get('/usuarios/logout', 'UsuariosController@logout');
+
