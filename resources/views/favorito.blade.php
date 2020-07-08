@@ -7,6 +7,7 @@ Favoritos
     <link rel="stylesheet" href="/css/favoritos.css">
     <main id="fav-content">
         <div>
+            <h2>Olá, {{ auth()->user()->nome }}</h2>
             <h3>Meus Favoritos</h3>
         </div>
         <section>

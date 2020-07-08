@@ -10,9 +10,9 @@
                 Email
                 <input type="email" id="email" name="email">
             </label>
-            <label for="password">
+            <label for="senha">
                 Senha
-                <input type="password" id="password" name="password">
+                <input type="password" id="senha" name="senha">
             </label>
             <button type="submit">Login</button>
         </form>

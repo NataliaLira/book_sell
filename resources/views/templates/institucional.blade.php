@@ -15,9 +15,13 @@
         <nav>
             <a href="/"><img src="img/book_logo.svg" alt="BookSell"></a>
             <ul>
-                <li class="{{request()->is('favoritos') ? 'selected' : ''}}"><a href="/favoritos">Favoritos</a></li>
-                <li class="{{request()->is('login') ? 'selected' : ''}}"><a href="/login">Login</a></li>
-                <li class="{{request()->is('cadastro') ? 'selected' : ''}}"><a href="/cadastro">Cadastro</a></li>
+                <?php if( auth()->user()) { ?>}
+                    <li class="{{request()->is('favoritos') ? 'selected' : ''}}"><a href="/favoritos">Favoritos</a></li>
+                <?php } ?>
+                @guest    
+                    <li class="{{request()->is('login') ? 'selected' : ''}}"><a href="/login">Login</a></li>
+                    <li class="{{request()->is('cadastro') ? 'selected' : ''}}"><a href="/cadastro">Cadastro</a></li>
+                @endguest
             </ul>
         </nav>
     </header>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Auth;
 
 class UsuariosController extends Controller
 {
@@ -17,7 +18,18 @@ class UsuariosController extends Controller
 
         $user->save();
 
-        return 'Usuario criado com sucesso...';
+        return redirect('/favoritos');
+    }
+
+    function login(Request $request){
+        $email = $request->email;
+        $senha = $request->senha;
+
+        if(Auth::attempt(['email' => $email,'password' => $senha])) {
+            return redirect('/favoritos');
+        } else {
+            return redirect('/login?erro=1');
+        }
     }
 
 }

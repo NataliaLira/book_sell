@@ -15,13 +15,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'InstitucionalController@homeView');
 
-Route::get('/favoritos', 'InstitucionalController@favoritoView');
+Route::get('/favoritos', 'InstitucionalController@favoritoView')->name('favoritos')->middleware('auth');
 
-Route::get('/login', 'InstitucionalController@loginView');
+Route::get('/login', 'InstitucionalController@loginView')->name('login');
 
-Route::get('/cadastro', 'InstitucionalController@cadastroView');
+Route::get('/cadastro', 'InstitucionalController@cadastroView')->name('cadastro');
 
 Route::get('/produto', 'InstitucionalController@produtoView');
 
 Route::post('/usuarios', 'UsuariosController@store');
+
+Route::post('/login', 'UsuariosController@login');
 
